@@ -6,4 +6,9 @@ body{
     background-image: url("./assets/0b9c820c5834e4036783ac3c74ddc512.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}  
+}
+
+/* .inpts{
+    display: flex;
+    flex-direction: column;
+} */
