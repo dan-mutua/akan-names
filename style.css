@@ -8,7 +8,7 @@ body{
     background-size: cover;
 }
 
-/* .inpts{
-    display: flex;
-    flex-direction: column;
-} */
+.inpts{
+    justify-content: space-around;
+
+} 
