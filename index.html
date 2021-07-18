@@ -4,64 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Akan names</title>
+    <link rel="stylesheet"  href="./css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="about container border shadow-lg p-3 mb-5 bg-body rounded">
+          <h2>Akan name </h2>
+          <img src="./assets/692-6921532_ghana-flag-png-transparent-png-removebg-preview.png" height="100px" alt="ghana flag">
         <p>
             The Akan people of Ghana frequently name their children after the day of the week they were born and the order
              in which they were born. These "day names" have further meanings concerning the soul and character of the person. 
              Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
              Here is a form for you to get your Akan name:
         </p>
-        <div id="tabs">                  
-            <div id="name-address">    
-                <div class="f1">
-                 <label for="fname" > First Name </label> 
-                  <input type="textbox" placeholder="  firstName" id="fname" > 
-                </div>  
-                 <label for="Sname" > Second Name </label> 
-                  <input type="textbox" placeholder="  Second Name" id="sname" > 
-                </div> 
-                <div class="fi">     
-                  <label for="address">Address</label>   
-                  <input type="text" placeholder=" add your address here" id="address" > <br>
+        <div class="inpts">
+            <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control na"  >
+                  
                 </div>
-            </div>   
-        <div id="mobile-type">
-            <div class="f1">
-                 <label for="Email">Email</label>
-                   <input type="email" placeholder="   enter your email"  id="email" >  
-            </div>  
-            <div class="f1">          
-                   <label for="month"> month </label>
-                <input list="month" name="months" id="month"  >
-                <datalist id="month">
-                    <option value="January"></option>
-                    <option value="Feb"></option>
-                    <option value="March"></option>
-                    <option value="April"></option>
-                    <option value="May"></option>
-                    <option value="June"></option>
-                    <option value="July"></option>
-                    <option value="August"></option>
-                    <option value="September"></option>
-                    <option value="October"></option>
-                    <option value="November"></option>
-                    <option value="December"></option>
-                </datalist><br>
-            </div>     
-         </div>   
-    </div>     
-
-
-
-
-
-
-
-
-    </div>
+                <div class="mb-3">
+                    <label for="date" class="form-label">date</label>
+                    <input type="number" class="form-control na" min="1" max="31">
+                  </div>
+                <div class="mb-3">
+                    <label for="month" class="form-label">month</label>
+                    <input type="number" class="form-control na" min="1" max="12">
+                  </div>
+                <div class="mb-3">
+                  <label for="year" class="form-label">year</label>
+                  <input type="number" class="form-control na" min="1900" max="2021">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="radio" class="form-check-input na">
+                  <label class="form-check-label" for="exampleCheck1">male</label><br>
+                  <input type="radio" class="form-check-input na">
+                  <label class="form-check-label" for="exampleCheck1">female</label>
+                </div>
+                <button class="na btn btn-block btn-outline-dark">submit</button>
+              </form>
+    
+        </div>
+   </div> 
+   <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
 

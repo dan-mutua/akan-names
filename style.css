@@ -1,0 +1,18 @@
+.about{
+    padding-top: 100px;
+    margin-top: 150px;
+}
+body{
+    background-image: url("./assets/TN1RLr.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inpts{
+    justify-content: space-around;
+
+} 
+
+.na{
+    margin: 7px;
+}
