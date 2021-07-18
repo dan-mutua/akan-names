@@ -1,8 +1,8 @@
-
-#### It is a landing page for Daniel Mutua porifolio
-#### Created By Daniel Mutua on 11-07-2021
+### Akan name project
+#### This helps you get your akan name
+#### Created By Daniel Mutua on 18-07-2021
 ## Description
-This was week one independent project, where by I created my own portifolio with some of the projects that I have done so far. You can understand more by visiting the website.
+In this week two project you can determine your Akan name depending on your birth date.
 ## Setup/Installation Requirements
 * Git
 * Web-browser or your choice
@@ -12,13 +12,14 @@ This was week one independent project, where by I created my own portifolio with
  * HTML
  * CSS
  * BOOTSTRAP
+ * JAVASCRIPT
 
 ## Setup/Installation Requirements
 
-* Live link to view the project <a href="https://dan-mutua.github.io/portifolio/">PORTIFOLIO</a>
-## Some Screenshots
-<img src="./assets/Screenshot 1.png" alt="screenshot" />
-<img src="./assets/Screenshot from 2021-07-11 19-00-20.png" alt="screenshot" />
+* Live link to view the project <a href="https://dan-mutua.github.io/akan-names/">AKAN NAME</a>
+## A sample Screenshot
+<img src="./assets/Screenshot from 2021-07-18 21-35-56.png" alt="screenshot" />
+
 
 
 ## Known Bugs
