@@ -1,10 +1,8 @@
 function validate() {
-  var name = document.getElementsByClassName("name").value;
-  var date = document.ggetElementsByClassName("date").value;
-  console.log(date);
-  var month = document.getElementsByClassName("month").value;
-  console.log(month);
-  var year = document.getElementsByClassName("year").value;
+  let name = document.querySelector(".name").value;
+  let date = document.querySelector(".date").value;
+  let month = document.querySelector(".month").value;
+  let year = document.querySelector(".year").value;
   console.log(year);
   
 }

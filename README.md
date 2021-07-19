@@ -7,6 +7,10 @@ In this week two project you can determine your Akan name depending on your birt
 * Git
 * Web-browser or your choice
 * Github
+### BDD
+* Behaviour our program should handle. 
+* When it receives;A day <=0 or >31 such as 35 then it is invalid. 
+* When it receives;A month <=0 or > 12 such as 15 then the output should be invalid.
 ## Technologies Used
  The following languages have been used on this project:
  * HTML
