@@ -14,8 +14,8 @@ function collectInputs() {
     console.log(year);
     let fullBirthDay = year + "-" + month + "-" + date;
     let yearBorn = new Date(fullBirthDay);
-    d = yearBorn.getDay(); //gets the day the user was born
-    console.log(d); // for testing
+    d = yearBorn.getDay(); 
+    console.log(d); 
     genderM = document.getElementById("male");
     genderF = document.getElementById("female");
     console.log(genderF.checked);
@@ -25,14 +25,12 @@ function Aname() {
     if (genderM.checked) {
         console.log(genderM)
         alert("Your Akan name is " + male[d]);
-        // document.querySelector(".text").innerHTML = "Your birth day is" + weekDays[validate()];
-        // console.log("Your Akan name is" + femaleNames[validate()]);
+       
     } else {
         if (genderF.checked) {
             console.log(genderF)
             alert("Your Akan name is " + female[d]);
-            // document.querySelector(".text").innerHTML = "Your birth day is" + weekDays[validate()];
-            // console.log("Your Akan name is" + maleNames[validate()]);
+           
         }
     }
 }
